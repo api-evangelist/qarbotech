@@ -1,7 +1,26 @@
 aid: qarbotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qarbotech.png
 name: Qarbotech
-description: Qarbotech is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Qarbotech (Qarbotech Sdn Bhd) is a Malaysian agritech and nanotechnology company that develops
+  biocompatible organic compounds to optimize plant photosynthesis and raise agricultural
+  productivity. Its flagship product, QarboGrow, is a photosynthesis-enhancing treatment marketed to
+  boost photosynthetic efficiency and lift crop yields by roughly 20-30% while improving plant health,
+  disease resistance, and crop quality, alongside the Harvast and Harvast+ product lines. Headquartered
+  in Puchong, Selangor with additional offices in Bukit Mertajam, Penang and Jakarta, Indonesia, the
+  company was surfaced as a portfolio company of 500 Global. Qarbotech is a physical-product agritech
+  business and publishes no public developer, API, or documentation surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/qarbotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agritech
+- Agriculture
+- Nanotechnology
+- Photosynthesis
+- Sustainability
+- Crop Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://qarbotech.com
+- type: About
+  url: https://qarbotech.com/about/
+- type: Products
+  url: https://qarbotech.com/qarbogrow/
+- type: Blog
+  url: https://qarbotech.com/articles-news/
+- type: Support
+  url: https://qarbotech.com/contact/
+- type: DomainSecurity
+  url: security/qarbotech-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
